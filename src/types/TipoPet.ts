@@ -1,8 +1,10 @@
+import EnumEspecie from "../enum/EnumEspecie";
+
 type TipoRet={
     id:Number,
     nome:String,
-    especie:String,
+    especie:EnumEspecie,
     adotado:Boolean,
-    idade:Number
+    dataNascimento:Date
 }
 export default TipoRet;
